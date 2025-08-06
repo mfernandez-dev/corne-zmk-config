@@ -11,11 +11,11 @@
 
 &nice_view_spi {
         cs-gpios = <&gpio0 29 GPIO_ACTIVE_HIGH>;
-}
+};
 
 &led_strip {
         chain-length = <27>;
-}
+};
 
 / {
         keymap {
